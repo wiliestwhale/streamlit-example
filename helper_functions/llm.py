@@ -8,12 +8,12 @@ load_dotenv('.env')
 
 if load_dotenv('.env'):
    # for local development
-   api_key = os.getenv('API_KEY')
+   key = os.getenv('API_KEY')
 else:
-   api_key = st.secrets['API_KEY']
+   key = st.secrets['API_KEY']
 
 # Pass the API Key to the OpenAI Client
-client = OpenAI(api_key)
+client = OpenAI(api_key=key)
 
 
 # Function for Generating Embedding
