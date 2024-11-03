@@ -1,0 +1,288 @@
+{
+    "CPF Contribution Rate Table from 1 January 2024 for Singapore Citizens or Singapore Permanent Residents (3rd year onwards)":{
+        "age_groups": [
+          {
+            "age": "55 & below",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "17% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "17% (TW) + 0.6 (TW - $500)", "employee_contribution": "0.6 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[37% (OW)]* + 37% (AW)", "employee_contribution": "[20% (OW)]* + 20% (AW)"}
+            ],
+            "max_contribution": {"total": "$2,516", "employee": "$1,360"}
+          },
+          {
+            "age": "Above 55 - 60",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "15% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "15% (TW) + 0.48 (TW - $500)", "employee_contribution": "0.48 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[31% (OW)]* + 31% (AW)", "employee_contribution": "[16% (OW)]* + 16% (AW)"}
+            ],
+            "max_contribution": {"total": "$2,108", "employee": "$1,088"}
+          },
+          {
+            "age": "Above 60 - 65",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "11.5% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "11.5% (TW) + 0.315 (TW - $500)", "employee_contribution": "0.315 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[22% (OW)]* + 22% (AW)", "employee_contribution": "[10.5% (OW)]* + 10.5% (AW)"}
+            ],
+            "max_contribution": {"total": "$1,496", "employee": "$714"}
+          },
+          {
+            "age": "Above 65 - 70",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "9% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "9% (TW) + 0.225 (TW - $500)", "employee_contribution": "0.225 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[16.5% (OW)]* + 16.5% (AW)", "employee_contribution": "[7.5% (OW)]* + 7.5% (AW)"}
+            ],
+            "max_contribution": {"total": "$1,122", "employee": "$510"}
+          },
+          {
+            "age": "Above 70",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "7.5% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "7.5% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[12.5% (OW)]* + 12.5% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$850", "employee": "$340"}
+          }
+        ],
+        "notes": {
+          "OW": "Ordinary Wages (capped at OW Ceiling of $6,800)",
+          "AW": "Additional Wages",
+          "TW": "Total Wages = OW + AW",
+          "Max": "Maximum contribution on OW"
+        }
+      },
+      
+        "CPF Contribution Rate Table from 1 January 2024 for Singapore Permanent Residents (SPR) during 1st year of SPR status under Graduated contribution rates (G/G)":{
+        "age_groups": [
+          {
+            "age": "55 & below",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "4% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "4% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[9% (OW)]* + 9% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$612", "employee": "$340"}
+          },
+          {
+            "age": "Above 55 - 60",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "4% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "4% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[9% (OW)]* + 9% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$612", "employee": "$340"}
+          },
+          {
+            "age": "Above 60 - 65",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "3.5% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "3.5% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[8.5% (OW)]* + 8.5% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$578", "employee": "$340"}
+          },
+          {
+            "age": "Above 65",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "3.5% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "3.5% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[8.5% (OW)]* + 8.5% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$578", "employee": "$340"}
+          }
+        ],
+        "notes": {
+          "OW": "Ordinary Wages (capped at OW Ceiling of $6,800)",
+          "AW": "Additional Wages",
+          "TW": "Total Wages = OW + AW",
+          "Max": "Maximum contribution on OW"
+        }
+      },
+      
+        "CPF Contribution Rate Table from 1 January 2024 for Singapore Permanent Residents (SPR) during 2nd year of SPR status under Graduated contribution rates (G/G)":{
+        "age_groups": [
+          {
+            "age": "55 & below",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "9% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "9% (TW) + 0.45 (TW - $500)", "employee_contribution": "0.45 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[24% (OW)]* + 24% (AW)", "employee_contribution": "[15% (OW)]* + 15% (AW)"}
+            ],
+            "max_contribution": {"total": "$1,632", "employee": "$1,020"}
+          },
+          {
+            "age": "Above 55 - 60",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "6% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "6% (TW) + 0.375 (TW - $500)", "employee_contribution": "0.375 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[18.5% (OW)]* + 18.5% (AW)", "employee_contribution": "[12.5% (OW)]* + 12.5% (AW)"}
+            ],
+            "max_contribution": {"total": "$1,258", "employee": "$850"}
+          },
+          {
+            "age": "Above 60 - 65",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "3.5% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "3.5% (TW) + 0.225 (TW - $500)", "employee_contribution": "0.225 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[11% (OW)]* + 11% (AW)", "employee_contribution": "[7.5% (OW)]* + 7.5% (AW)"}
+            ],
+            "max_contribution": {"total": "$748", "employee": "$510"}
+          },
+          {
+            "age": "Above 65",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "3.5% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "3.5% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[8.5% (OW)]* + 8.5% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$578", "employee": "$340"}
+          }
+        ],
+        "notes": {
+          "OW": "Ordinary Wages (capped at OW Ceiling of $6,800)",
+          "AW": "Additional Wages",
+          "TW": "Total Wages = OW + AW",
+          "Max": "Maximum contribution on OW"
+        }
+      },
+      
+       "CPF Contribution Rate Table from 1 January 2024 for Singapore Permanent Residents (SPR) during 1st year of SPR status under Full Employer & Graduated Employee contribution rates (F/G)":{
+        "age_groups": [
+          {
+            "age": "55 & below",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "17% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "17% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[22% (OW)]* + 22% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$1,496", "employee": "$340"}
+          },
+          {
+            "age": "Above 55 - 60",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "15% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "15% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[20% (OW)]* + 20% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$1,360", "employee": "$340"}
+          },
+          {
+            "age": "Above 60 - 65",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "11.5% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "11.5% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[16.5% (OW)]* + 16.5% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$1,122", "employee": "$340"}
+          },
+          {
+            "age": "Above 65 - 70",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "9% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "9% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[14% (OW)]* + 14% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$952", "employee": "$340"}
+          },
+          {
+            "age": "Above 70",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "7.5% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "7.5% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[12.5% (OW)]* + 12.5% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$850", "employee": "$340"}
+          }
+        ],
+        "notes": {
+          "OW": "Ordinary Wages (capped at OW Ceiling of $6,800)",
+          "AW": "Additional Wages",
+          "TW": "Total Wages = OW + AW",
+          "Max": "Maximum contribution on OW"
+        }
+      },
+      
+        "CPF Contribution Rate Table from 1 January 2024 for Singapore Permanent Residents (SPR) during 2nd year of SPR status under Full Employer & Graduated Employee contribution rates (F/G)":{
+        "age_groups": [
+          {
+            "age": "55 & below",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "17% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "17% (TW) + 0.45 (TW - $500)", "employee_contribution": "0.45 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[32% (OW)]* + 32% (AW)", "employee_contribution": "[15% (OW)]* + 15% (AW)"}
+            ],
+            "max_contribution": {"total": "$2,176", "employee": "$1,020"}
+          },
+          {
+            "age": "Above 55 - 60",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "15% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "15% (TW) + 0.375 (TW - $500)", "employee_contribution": "0.375 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[27.5% (OW)]* + 27.5% (AW)", "employee_contribution": "[12.5% (OW)]* + 12.5% (AW)"}
+            ],
+            "max_contribution": {"total": "$1,870", "employee": "$850"}
+          },
+          {
+            "age": "Above 60 - 65",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "11.5% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "11.5% (TW) + 0.225 (TW - $500)", "employee_contribution": "0.225 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[19% (OW)]* + 19% (AW)", "employee_contribution": "[7.5% (OW)]* + 7.5% (AW)"}
+            ],
+            "max_contribution": {"total": "$1,292", "employee": "$510"}
+          },
+          {
+            "age": "Above 65 - 70",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "9% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "9% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[14% (OW)]* + 14% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$952", "employee": "$340"}
+          },
+          {
+            "age": "Above 70",
+            "rates": [
+              {"wages": "$50 or less", "total_contribution": "Nil", "employee_contribution": "Nil"},
+              {"wages": "> $50 to $500", "total_contribution": "7.5% (TW)", "employee_contribution": "Nil"},
+              {"wages": "> $500 to $750", "total_contribution": "7.5% (TW) + 0.15 (TW - $500)", "employee_contribution": "0.15 (TW - $500)"},
+              {"wages": "> $750", "total_contribution": "[12.5% (OW)]* + 12.5% (AW)", "employee_contribution": "[5% (OW)]* + 5% (AW)"}
+            ],
+            "max_contribution": {"total": "$850", "employee": "$340"}
+          }
+        ],
+        "notes": {
+          "OW": "Ordinary Wages (capped at OW Ceiling of $6,800)",
+          "AW": "Additional Wages",
+          "TW": "Total Wages = OW + AW",
+          "Max": "Maximum contribution on OW"
+        }
+      }
+    
+  }
+  

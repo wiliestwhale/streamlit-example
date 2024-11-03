@@ -1,0 +1,32 @@
+{
+    "Unconditional Withdrawals": {
+        "Footnotes": {
+            "Withdrawable Any Time After Age 55": "Amount is withdrawable from your Special (SA) and Ordinary Account (OA). If you have not met your Full Retirement Sum (FRS) with CPF savings or with a property, some of your SA and OA savings will be transferred to your Retirement Account (RA) to make up your FRS when you make a withdrawal. Once you have set aside your FRS, you can withdraw all your SA and OA savings.",
+            "Additional Withdrawable Any Time After Age 65": "Amount withdrawable is computed based on your Retirement Account and any CPF LIFE premium balances at 65. Any remaining amount not withdrawn or used to increase your monthly payouts will be transferred to your OA for your future withdrawals in the same month you start your monthly payouts."
+        },
+        "1953 and before": {
+            "Withdrawable Any Time After Age 55": "50% of your CPF savings",
+            "Additional Withdrawable Any Time After Age 65": "N.A."
+        },
+        "1954": {
+            "Withdrawable Any Time After Age 55": "40% of your CPF savings",
+            "Additional Withdrawable Any Time After Age 65": "N.A."
+        },
+        "1955": {
+            "Withdrawable Any Time After Age 55": "30% of your CPF savings",
+            "Additional Withdrawable Any Time After Age 65": "N.A."
+        },
+        "1956": {
+            "Withdrawable Any Time After Age 55": "20% of your CPF savings",
+            "Additional Withdrawable Any Time After Age 65": "N.A."
+        },
+        "1957": {
+            "Withdrawable Any Time After Age 55": "10% of your CPF savings",
+            "Additional Withdrawable Any Time After Age 65": "Up to 10% of your retirement savings at 65"
+        },
+        "1958 and after": {
+            "Withdrawable Any Time After Age 55": "$5,000 of your CPF savings",
+            "Additional Withdrawable Any Time After Age 65": "Up to 20% of your retirement savings at 65, less the $5,000 withdrawable from 55"
+        }
+    }
+}
