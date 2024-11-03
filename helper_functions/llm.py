@@ -2,11 +2,18 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 import tiktoken
+import streamlit as st
 
 load_dotenv('.env')
 
+if load_dotenv('.env'):
+   # for local development
+   api_key = os.getenv('KEY')
+else:
+   api_key = st.secrets['KEY']
+
 # Pass the API Key to the OpenAI Client
-client = OpenAI(api_key=os.getenv('KEY'))
+client = OpenAI(api_key)
 
 
 # Function for Generating Embedding
