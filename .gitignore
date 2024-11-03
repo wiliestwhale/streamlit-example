@@ -22,9 +22,3 @@ dist/
 
 # Streamlit
 .streamlit/secrets.toml
-/__pycache__
-/venv
-/env
-/.env
-/build
-/dist

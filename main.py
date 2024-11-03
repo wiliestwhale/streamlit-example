@@ -99,7 +99,7 @@ if menu == "CPF Contributions AI":
 
     if form.form_submit_button("Submit"):
         response_data = process_usecase1_message(f'My citizenship is {citizenship}. I am a {employment_type} employee, aged {age}, with ordinary wages of {salary} and additional wages of {salary_aw}. {user_prompt}') # <--- This calls the helper function that we have created 🆕
-        st.write(response_data['response']) 
+        st.write(response_data['response'].replace('$', '\$')) 
 
         # Extract data for charts if available
         try:
@@ -129,7 +129,7 @@ elif menu == "CPF Withdrawals AI":
 
     if form.form_submit_button("Submit"):
         response_data = process_usecase2_message(f'I am aged {age}, with current CPF balance of {cpf_balance} in SGD. {user_prompt}') # <--- This calls the helper function that we have created 🆕
-        st.write(response_data['response']) 
+        st.write(response_data['response'].replace('$', '\$')) 
 
         # Extract data for charts if available
         try:
