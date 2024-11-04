@@ -90,12 +90,12 @@ if menu == "CPF Contributions AI":
     '''
     * I am updated on the latest CPF Contribution Rates from 1 Jan 2024.
 
-    * I will attempt to illustrate with charts where relevant, e.g. for queries such as "_Show me my accruals in CPF contributions over the next 10 years_".
+    * I will attempt to illustrate with charts where relevant, e.g. for queries such as "_Show me my accrued CPF contributions over the next 10 years_".
 
     * However, I may refuse to answer questions not related to CPF Contribution Rates.'''
     form = st.form(key="form")
    
-    user_prompt = form.text_area("Enter your query here", height=200, value="Show me my accruals in CPF contributions over the next 10 years.")
+    user_prompt = form.text_area("Enter your query here", height=200, value="Show me accrued CPF contributions over the next 10 years.")
 
     if form.form_submit_button("Submit"):
         response_data = process_usecase1_message(f'My citizenship is {citizenship}. I am a {employment_type} employee, aged {age}, with ordinary wages of {salary} and additional wages of {salary_aw}. {user_prompt}') # <--- This calls the helper function that we have created 🆕
